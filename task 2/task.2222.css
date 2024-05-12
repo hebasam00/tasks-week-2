@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    color: rgb(44, 140, 55);
+    margin-left: 20px;
+  }
+  p{
+    color: brown;
+  }
