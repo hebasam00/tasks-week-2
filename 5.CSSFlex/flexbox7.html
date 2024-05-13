@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left1 {
+  background-color: #be6464;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right2 {
+  background-color: rgb(0, 184, 159);
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right3 {
+  background-color: #0c772e;
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right4 {
+  background-color: rgb(51, 104, 157);
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right5 {
+  background-color: rgb(124, 204, 48);
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right6 {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right7 {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right8 {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Responisve Flexbox</h1>
+
+
+
+<div class="flex-container">
+  <div class="flex-item-left1">1</div>
+  <div class="flex-item-right2">2</div>
+  <div class="flex-item-left3">3</div>
+  <div class="flex-item-right4">4</div>
+  <div class="flex-item-left5">5</div>
+  <div class="flex-item-right6">6</div>
+  <div class="flex-item-left7">7</div>
+  <div class="flex-item-right8">8</div>
+</div>
+
+</body>
+</html>
